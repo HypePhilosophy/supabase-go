@@ -3,11 +3,10 @@ package supabase
 import (
 	"encoding/json"
 	"fmt"
+	postgrest "github.com/hypephilosophy/postgrest-go/pkg"
 	"net/http"
 	"net/url"
 	"time"
-
-	postgrest "github.com/HypePhilosophy/postgrest-go/pkg"
 )
 
 const (
